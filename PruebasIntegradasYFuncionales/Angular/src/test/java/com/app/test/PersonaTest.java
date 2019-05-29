@@ -24,7 +24,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * Integracion
  *
  */
-
+ 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
